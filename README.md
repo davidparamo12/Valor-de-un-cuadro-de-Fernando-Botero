@@ -12,7 +12,9 @@ Es relevante indicar que el Maestro Fernando Botero se ha ganado el reconocimien
 Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernando Botero, no solo por su arte sino por su humanidad. Es el artista con mayores donaciones a Colombia, reflejado en el Museo Botero en Bogotá y en el museo de Antioquia en Medellín. Además, ha donado muchas esculturas que embellecen las calles de Bogotá y Medellín. Espero que este pequeño trabajo sea también un pequeño tributo para el mejor artista de Colombia.
 
 
+
 -----------------------------------------------------------------------------------
+
 
 
 ### ESTRUCTURA DEL PROYECTO-
@@ -35,6 +37,8 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
    
 9.	AUTOR
 
+
+
 ---------------------------------------------------------------------------------
 
 
@@ -53,10 +57,10 @@ De tal manera, al extraer la información de la página de Christie´s, se pone 
 
 
 
-### DESCRIPCIÓN DEL DATASET:
+#### DESCRIPCIÓN DEL DATASET:
 
 
-1.	FECHA- Se crearon dummies por décadas:
+   FECHA- Se crearon dummies por décadas:
    
         a.	1950-1959
         b.	1960-1969
@@ -66,129 +70,126 @@ De tal manera, al extraer la información de la página de Christie´s, se pone 
         f.	2000-2009
         g.	2010-2020
 
+-------------------------------------------------
    
-3.	TAMAÑO- Se extrajeron los siguientes datos sin redondear:
+   TAMAÑO- Se extrajeron los siguientes datos sin redondear:
    
         a.	Altura
         b.	Ancho
   	
-      Al realizar el proceso de clustering se decidió crear 5 clusters. En primera instancia, el método del codo lo permitía, debido a que el óptimo del hyperparametro k gira entorno    entre k=3 y 5. En segunda instancia 5 le daba mayor sentido al contexto de las obras del Maestro Fernando Botero. Estos son los 5 clusters que se volvieron dummies para el proyecto.
-  	
-      Las medidas son (Altura x Ancho):
-  	
-      I.	Pequeño-
-  	
-              a.	Altura (0 -112cm)
-              b.	Ancho (0- 120 cm)
-  	
-      II.	Mediano-pequeño:
-  	
-              a.	Altura (113 cm – 162 cm)
-              b.	Ancho (90 cm- 129 cm)
-  	
-      III.	Mediano-grande:
-  	
-              a.	Altura (80 cm – 152 cm)
-              b.	Ancho (149cm-190cm)
-    	
-      IV.	Grande:
-  	
-              a.	Altura (160 cm- 225cm)
-              b.	Ancho (115 cm-204cm)
-  	
-      V.	Colección:
-  	
-              a.	Altura(200cm-240cm)
-              b.	Ancho( >300cm)
+         Al realizar el proceso de clustering se decidió crear 5 clusters. En primera instancia, el método del codo lo permitía, debido a que el óptimo del hyperparametro k gira entorno    entre k=3 y 5. En segunda instancia 5 le daba mayor sentido al contexto de las obras del Maestro Fernando Botero. Estos son los 5 clusters que se volvieron dummies para el proyecto.
+     	
+         Las medidas son (Altura x Ancho):
+     	
+         I.	Pequeño-
+     	
+                 a.	Altura (0 -112cm)
+                 b.	Ancho (0- 120 cm)
+     	
+         II.	Mediano-pequeño:
+     	
+                 a.	Altura (113 cm – 162 cm)
+                 b.	Ancho (90 cm- 129 cm)
+     	
+         III.	Mediano-grande:
+     	
+                 a.	Altura (80 cm – 152 cm)
+                 b.	Ancho (149cm-190cm)
+       	
+         IV.	Grande:
+     	
+                 a.	Altura (160 cm- 225cm)
+                 b.	Ancho (115 cm-204cm)
+     	
+         V.	Colección:
+     	
+                 a.	Altura(200cm-240cm)
+                 b.	Ancho( >300cm)
 
+---------------------------------------------------------------------------
 
-  ---------------------------------------------------
   
-### PROVENANCE- 
-Los lugares en los que ha estado la obra. Una obra puede tener más de uno. En paréntesis se pone los lugares que aparecieron pero que no son dummies independientes.
+   PROVENANCE- 
+   
+   Los lugares en los que ha estado la obra. Una obra puede tener más de uno. En paréntesis se pone los lugares que aparecieron pero que no son dummies independientes.
+   
+         a.	Marlborough Gallery New York      
+         b.	New York- (Familias, coleccionistas y otras galerías)
+         c.	USA- (California, Miami, Florida)
+         d.	Hong Kong
+         e.	Londres
+         f.	Francia- (Paris y Nantes)
+         g.	Europa – (Suiza, Italia, Belgica, Alemania)
+         h.	Colombia- (Cuando no se especifica nada)
+         i.	LATAM- (Mexico, Venezuela)
+         j.	Dubai
+         k.	Sur-Africa
 
-      a.	Marlborough Gallery New York      
-      b.	New York- (Familias, coleccionistas y otras galerías)
-      c.	USA- (California, Miami, Florida)
-      d.	Hong Kong
-      e.	Londres
-      f.	Francia- (Paris y Nantes)
-      g.	Europa – (Suiza, Italia, Belgica, Alemania)
-      h.	Colombia- (Cuando no se especifica nada)
-      i.	LATAM- (Mexico, Venezuela)
-      j.	Dubai
-      k.	Sur-Africa
+---------------------------------------------------------------------------------
+   
+   LUGAR ÚLTIMA COMPRA- 
+   El lugar donde se compro la última vez el cuadro.
+   
+       a.	New York
+       b.	USA
+       c.	Londres
+       d.	Francia
+       e.	Europa
+       f.	LATAM
+       g.	Colombia
+       h.	Hong Kong
+       i.	Canada
 
-----------------------------------------------------------------
+   ------------------------------------------------------------------
+   
+   PERIODO DE COLECCIONISTA-
+   
+       a.	Última compra- el año de la última venta
+       b.	Penúltima compra- el año de la penúltima venta.
 
+   ------------------------------------------------------------------
+   
+   SUB O SOBRE VALORADO-
+   
+       a.	MIN- El precio mínimo que establece Christie´s
+       b.	MAX- El precio máximo de Christie´s
+   
+   --------------------------------------------------------------------------
+   
+   LITERATURA- Las referencias literarias que aparecen sobre el cuadro.
+   
+       a.	4 o más literaturas
+       b.	Menos de 4 literaturas
 
-### LUGAR ÚLTIMA COMPRA- 
-El lugar donde se compro la última vez el cuadro.
+   ---------------------------------------------------------------------------------
+   
+   EXHIBICIÓN DE LA OBRA- 
+      
+      Museos y galerías donde se ha exhibido la obra.
+      
+          a.	4 o más exhibiciones.
+          b.	Menos de 4 exhibiciones
 
-    a.	New York
-    b.	USA
-    c.	Londres
-    d.	Francia
-    e.	Europa
-    f.	LATAM
-    g.	Colombia
-    h.	Hong Kong
-    i.	Canada
-
-
-----------------------------------------------------------------------------
-
-
-### PERIODO DE COLECCIONISTA-
-
-    a.	Última compra- el año de la última venta
-    b.	Penúltima compra- el año de la penúltima venta.
-
-
---------------------------------------------------------------------------------------------
-
-
-### SUB O SOBRE VALORADO-
-    a.	MIN- El precio mínimo que establece Christie´s
-    b.	MAX- El precio máximo de Christie´s
-
------------------------------------------------------------------------------------------------
-
-
-### LITERATURA- Las referencias literarias que aparecen sobre el cuadro.
-
-    a.	4 o más literaturas
-    b.	Menos de 4 literaturas
-
----------------------------------------------------------------------------------------------------
-
-### EXHIBICIÓN DE LA OBRA- 
-Museos y galerías donde se ha exhibido la obra.
-
-    a.	4 o más exhibiciones.
-    b.	Menos de 4 exhibiciones
-
---------------------------------------------------------------
-
-
-### TEMÁTICA DE LA OBRA- (Puede tener más de 1 categoría)
-
-    a.	1 figura- 1 figura humana de cualquier tipo que sea el centro del tema del cuadro. Si por ejemplo, es 1 figura pequeña y hay un paisaje o bodegón mucho mas importante, el tema NO sería 1 figura.
-    b.	2 figuras- 2 figuras humanas de similares proporciones y que estén interactuando y sea el centro del tema.
-    c.	Grupo de figuras- 3 o más figuras humanas que están realizando algo en conjunto.
-    d.	Bodegón- Objetos inanimados. NO es un paisaje.
-    e.	Animales- Cuando el animal es grande y parte importante del cuadro.
-    f.	Escenas urbanas- Cuando hay referencia a ciudades
-    g.	Escenas rurales- Pueblos y casas campesinas.
-    h.	Escena hogar- Los lugares de un hogar: habitación, cocina, sala, etc.
-    i.	Histórico- Si son personajes históricos: Goya, Vermeer, etc.
-    j.	Político- Temas como la pobreza, violencia.
-    k.	Religión- Cualquier referencia por pequeña que sea; una cruz, ángel pequeño, etc.
-    l.	Desnudo/Erótico- No debe ser explícito con un desnudo si la pose de la figura es sugestiva.
-    m.	Paisaje- Cuando el paisaje se vuelve el centro del cuadro. No es sólo un medio sino un fin.
-    n.	Personal- Eventos personales propios del artista como la primera comunión, amigos, famliares y autoretratos.
-    o.	Carbon- Técnica al carbón. Sólo se incluyó como referencia al oleo.
-    p.	Búsqueda (sin “Boterismo”)- Estos cuadros tratan del inicio de su carrera donde explora diferentes estilos.
+   ----------------------------------------------------------------------------------
+   
+   TEMÁTICA DE LA OBRA- (Puede tener más de 1 categoría)
+   
+       a.	1 figura- 1 figura humana de cualquier tipo que sea el centro del tema del cuadro. Si por ejemplo, es 1 figura pequeña y hay un paisaje o bodegón mucho mas importante, el tema NO sería 1 figura.
+       b.	2 figuras- 2 figuras humanas de similares proporciones y que estén interactuando y sea el centro del tema.
+       c.	Grupo de figuras- 3 o más figuras humanas que están realizando algo en conjunto.
+       d.	Bodegón- Objetos inanimados. NO es un paisaje.
+       e.	Animales- Cuando el animal es grande y parte importante del cuadro.
+       f.	Escenas urbanas- Cuando hay referencia a ciudades
+       g.	Escenas rurales- Pueblos y casas campesinas.
+       h.	Escena hogar- Los lugares de un hogar: habitación, cocina, sala, etc.
+       i.	Histórico- Si son personajes históricos: Goya, Vermeer, etc.
+       j.	Político- Temas como la pobreza, violencia.
+       k.	Religión- Cualquier referencia por pequeña que sea; una cruz, ángel pequeño, etc.
+       l.	Desnudo/Erótico- No debe ser explícito con un desnudo si la pose de la figura es sugestiva.
+       m.	Paisaje- Cuando el paisaje se vuelve el centro del cuadro. No es sólo un medio sino un fin.
+       n.	Personal- Eventos personales propios del artista como la primera comunión, amigos, famliares y autoretratos.
+       o.	Carbon- Técnica al carbón. Sólo se incluyó como referencia al oleo.
+       p.	Búsqueda (sin “Boterismo”)- Estos cuadros tratan del inicio de su carrera donde explora diferentes estilos.
 
 
 ------------------------------------------------------------------------
@@ -199,7 +200,11 @@ No existe evidencia que el precio de venta siga una distribución normal.
 
 ![image](https://github.com/user-attachments/assets/a4b2a6a5-f883-4054-9045-91da47780d5e)
 
-Al quitar los dos fuertes outlyers, no mejora la distribución normal
+Al quitar los dos fuertes outlyers, no mejora la distribución normal y se mantiene un sesgo hacia la derecha. El resultado de la prueba Shapiro-Wilk es: p-valor=0.0001 (quitando los dos outlyers más fuertes. Por esta razón procedemos en crear un dataset de dummies.
+
+
+
+
 
 
  
