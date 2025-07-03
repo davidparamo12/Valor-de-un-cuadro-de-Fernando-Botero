@@ -1,4 +1,4 @@
-                                                            ¿CUÁNTO VALE UN CUADRO AL ÓLEO DE FERNANDO BOTERO?
+                                                            #¿CUÁNTO VALE UN CUADRO AL ÓLEO DE FERNANDO BOTERO?
 
 INTRODUCCIÓN
 
