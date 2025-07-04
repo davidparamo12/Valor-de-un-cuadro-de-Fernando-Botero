@@ -248,9 +248,53 @@ Cabe anotar que al realizar el HEATMAP, no se encontró una alta correlacion con
 ![image](https://github.com/user-attachments/assets/78d170b2-9c95-4a43-90e6-38d584b84e48)
 
 
-No existe evidencia que el tiempo entre la penúltima compra y la última ayude a valorizar el cuadro. Es decir, tener un cuadro por años en tu casa no va 
+No existe evidencia que el tiempo entre la penúltima compra y la última ayude a valorizar el cuadro. Es decir, tener un cuadro por años en tu casa no va aumentar su valor. 
+
+
+---------------------------------
+
+
+### VARIABLE SUB O SOBRE VALORADO LOS CUADROS DE BOTERO
+
+
+![image](https://github.com/user-attachments/assets/db6a806e-260d-4a52-a92e-bf8b5bc6f48e)
+
+
+Podemos ver que el máximo precio que establece Christie´s para la subasta es roto en la gran mayoría de los casos. Es decir, existe evidencia que Botero está sub-valorado. Puede ser interesante verlo como una herramienta de inversión.
+
+
+------------------------------------
+
+### VARIABLE LITERATURA
+
+![image](https://github.com/user-attachments/assets/fbfadee5-49b3-44c9-982d-3d5ce5e28f54)
+
+
+Existe una relacion moderada entre 4 literaturas o más para valorizar un cuadro. 
+
+
+-----------------------------
+
+### VARIABLE EXHIBICIONES
+
+![image](https://github.com/user-attachments/assets/52a93747-b955-46ac-b772-64d6c575a5db)
+
+
+Existe una relacion moderada entre 4 exhibiciones o más.
+
+
+-------------------------------
+
+### VARIABLE TEMÁTICA
+
+![image](https://github.com/user-attachments/assets/ce83c611-f81f-4476-bd3d-4815682d1cdc)
+
+Es evidente que la temática GRUPO DE FIGURAS es el que mayor valoriza los cuadros. Esto tiene sentido desde el contexto artístico: las figuras es lo que mejor permite expresar el "Boterismo". El grupo de figuras arrojó una correlación fuerte de 0.68.
+
+--------------
 
 
 
+ ## PRIMER MODELO- EL DE ML
 
- 
+ ![image](https://github.com/user-attachments/assets/4459c0a8-0429-4ceb-b3e4-6da91ec386b9)
