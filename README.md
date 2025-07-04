@@ -341,3 +341,14 @@ Llega un señor y te ofrece un cuadro de Botero, ¿qué hacer? Realizamos un dep
 ![image](https://github.com/user-attachments/assets/06973646-1da7-4137-ab79-68a8447939ba)
 
 
+
+
+---------------------
+
+CONCLUSIONES FINALES:
+
+A pesar que el tamaño es una variable importante, esta lejos de ser un método confiable para valorizar un cuadro de Botero. En este proyecto pudimos encontrar varias cosas:
+
+   1. La cantidad de literatura es fundametal para valorizar un cuadro, al igual que el número de veces que se ha exhibido.
+   2. La temática de "Grupo de Figuras" es el que más agrega valor a un cuadro. Acá se expresa mejor el "Boterismo".
+   3. Hay oportunidades de negocio. Hay cuadros muy sub-valorados. Para este caso, Tablao Flamenco podría valer el doble del precio al que fue comprado
