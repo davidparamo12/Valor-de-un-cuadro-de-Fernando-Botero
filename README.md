@@ -299,9 +299,9 @@ Es evidente que la temática GRUPO DE FIGURAS es el que mayor valoriza los cuadr
 
  ![image](https://github.com/user-attachments/assets/4459c0a8-0429-4ceb-b3e4-6da91ec386b9)
 
-Podemos observar que al ingresar el cuadro más costoso- "The Musicians" no apareció el cuadro que le sigue en precio sino un cuadro que se vendio en 2019 por U$2 millones. Este cuadro está muy subvalorado y hay oportunidades de arbitraje con grandes utilidades. 
+Podemos observar que al ingresar el cuadro más costoso- "The Musicians" no apareció el cuadro que le sigue en precio sino un cuadro que se vendio en 2019 por U$2 millones cuyo nombre es "Tablao Flamenco" y que debería tener un precio mucho más alto. Este cuadro está muy subvalorado y hay oportunidades de arbitraje con grandes utilidades, similar al duplicar mínimo su valor. 
 
- Al probarlo con todo tipo de indices, los resultados son satisfactorios del model.
+ Al probarlo con todo tipo de indices, los resultados son satisfactorios del modelo.
 
 
  ------------------
@@ -316,5 +316,28 @@ Al observar el resultado del modelo de regresión lineal se puede concluir:
    1. Un R2 alto (0.84) significa que el modelo puede explicar la variable VENTA.
    2. R2 ajustado (0.56) hay muchas variables que no son relevantes. Se creará otro modelo, quitando gran parte de la temática a excepción de "Grupo Figuras" para reducir el sobreajuste.
    3. F-estadístico (3.042) significa que el modelo SI es estadísticamente significativo.
- 
+
+
+ Al eliminar todas las variables temáticas, se obtuvo:
+
+ ![image](https://github.com/user-attachments/assets/d2e4f7f7-d6a3-43a0-a5c7-37aa2aa458ee)
+
+
+El modelo mejoró su R2 ajustado y y su F-estadístico mejoró muchisimo. El análisis de estas variables las escribimos en las conclusiones
+
+
+-----------------------
+
+## TERCER MODELO
+
+Llega un señor y te ofrece un cuadro de Botero, ¿qué hacer? Realizamos un deployment con Streamlit para que puedas rellenar los atributos del cuadro y obtener el cuadro más similar.
+
+![image](https://github.com/user-attachments/assets/efda038e-c325-4972-9623-fcea85611ff2)
+
+
+![image](https://github.com/user-attachments/assets/abdb8e04-ffc7-41ee-aab2-75831f88fabe)
+
+
+![image](https://github.com/user-attachments/assets/06973646-1da7-4137-ab79-68a8447939ba)
+
 
