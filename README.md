@@ -212,8 +212,43 @@ Indicadores relevantes de la variable precio de venta: Promedio=$902.981 USD y u
 
 Se puede concluir que la carrera artística del maestro Fernando Botero llega a su cúspide en el periodo 1970-1990, que es cuando inicia su estilo artístico: el "Boterismo". Antes de esta década es una exploración y por eso se explica un precio promedio muy inferior al resto del dataset. Tambien en el contexto de la industría artística, entre más autenticidad de la obra, mayor su valor. Tener las obras que iniciaron su obra artística le da una mayor propuesta de valor y esto puede explicar los dos outlyers fuertes: Playroom con un precio de venta de U$3.6 millones y The musicians en U$5.13 millones, ambos elaborados en la década de 1970-1980.
 
-Se puede apreciar una caída considerable del valor de las obras entre 1990-2010. La razón principal es que en este periodo los formatos de los cuadros son mucho más pequeños que los de la década 1970-1990. En la década de 2010-2020 retoma un formato más grande que explica el aumento de su precio, no obstante hay pocos en el dataset.
+Se puede apreciar una caída considerable del valor de las obras entre 1990-2010. La razón principal es que en este periodo los formatos de los cuadros son mucho más pequeños que los de la década 1970-1990. En la década de 2010-2020 retoma un formato más grande que explica el aumento de su precio, no obstante hay pocos cuadros en el dataset.
 
+
+--------------------------------------
+
+### VARIABLE TAMAÑO
+
+![image](https://github.com/user-attachments/assets/99b4f6ba-08ab-4623-8120-de030d566d92)
+
+Es evidente que si existe una alta correlación entre el tamaño y el precio de venta (0.7 se considera una relación fuerte). Lo interesante por anotar es que la ALTURA del cuadro es la que en mayor medida afecta el precio.
+
+Para nuestro modelo, creamos 5 tamaños que serán las dummies para nuestro modelo:
+
+
+![image](https://github.com/user-attachments/assets/f780145e-4c4a-44d7-8a96-9d990fec2399)
+
+
+
+------------------------------------------
+
+### VARIABLE PROVENANCE
+
+![image](https://github.com/user-attachments/assets/5d88435f-d092-40ef-a515-a8757a9fe9a5)
+
+
+La galería Marlborough en NY, es una galeria fundamental para la carrera artística del maestro Fernando Botero que lo acompaño desde 1970. Es donde inicio su carrera artística con fama mundial y donde sus obras más cotizadas en algún momento han pasado por esa galeria.
+
+Cabe anotar que al realizar el HEATMAP, no se encontró una alta correlacion con Provenance a excepcion de la galeria Marlborough de NY con un un indicador de 0.49, que es una relación moderada y que sólo este lugar se tomará para el modelo.
+
+---------------------------------
+
+### VARIABLE TIEMPO DE COLECCION
+
+![image](https://github.com/user-attachments/assets/78d170b2-9c95-4a43-90e6-38d584b84e48)
+
+
+No existe evidencia que el tiempo entre la penúltima compra y la última ayude a valorizar el cuadro. Es decir, tener un cuadro por años en tu casa no va 
 
 
 
