@@ -298,3 +298,23 @@ Es evidente que la temática GRUPO DE FIGURAS es el que mayor valoriza los cuadr
  ## PRIMER MODELO- EL DE ML
 
  ![image](https://github.com/user-attachments/assets/4459c0a8-0429-4ceb-b3e4-6da91ec386b9)
+
+Podemos observar que al ingresar el cuadro más costoso- "The Musicians" no apareció el cuadro que le sigue en precio sino un cuadro que se vendio en 2019 por U$2 millones. Este cuadro está muy subvalorado y hay oportunidades de arbitraje con grandes utilidades. 
+
+ Al probarlo con todo tipo de indices, los resultados son satisfactorios del model.
+
+
+ ------------------
+
+ ## SEGUNDO MODELO DE REGRESIÓN 
+
+ ![image](https://github.com/user-attachments/assets/ae2b231f-4fcd-4fe1-b784-1a2894e9ebec)
+
+
+Al observar el resultado del modelo de regresión lineal se puede concluir:
+
+   1. Un R2 alto (0.84) significa que el modelo puede explicar la variable VENTA.
+   2. R2 ajustado (0.56) hay muchas variables que no son relevantes. Se creará otro modelo, quitando gran parte de la temática a excepción de "Grupo Figuras" para reducir el sobreajuste.
+   3. F-estadístico (3.042) significa que el modelo SI es estadísticamente significativo.
+ 
+
