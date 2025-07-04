@@ -200,8 +200,19 @@ No existe evidencia que el precio de venta siga una distribución normal.
 
 ![image](https://github.com/user-attachments/assets/a4b2a6a5-f883-4054-9045-91da47780d5e)
 
-Al quitar los dos fuertes outlyers, no mejora la distribución normal y se mantiene un sesgo hacia la derecha. El resultado de la prueba Shapiro-Wilk es: p-valor=0.0001 (quitando los dos outlyers más fuertes. Por esta razón procedemos en crear un dataset de dummies.
+Al quitar los dos fuertes outlyers, no mejora la distribución normal y se mantiene un sesgo hacia la derecha. El resultado de la prueba Shapiro-Wilk es: p-valor=0.0001 (quitando los dos outlyers más fuertes). Por esta razón procedemos en crear un dataset de dummies.
 
+Indicadores relevantes de la variable precio de venta: Promedio=$902.981 USD y una Desviación Estandar= $892.194 USD
+
+
+#### VARIABLE FECHA:
+
+![image](https://github.com/user-attachments/assets/33d6679e-61a4-4f0f-877b-10e0323bcab5)
+
+
+Se puede concluir que la carrera artística del maestro Fernando Botero llega a su cúspide en el periodo 1970-1990, que es cuando inicia su estilo artístico: el "Boterismo". Antes de esta década es una exploración y por eso se explica un precio promedio muy inferior al resto del dataset. Tambien en el contexto de la industría artística, entre más autenticidad de la obra, mayor su valor. Tener las obras que iniciaron su obra artística le da una mayor propuesta de valor y esto puede explicar los dos outlyers fuertes: Playroom con un precio de venta de U$3.6 millones y The musicians en U$5.13 millones, ambos elaborados en la década de 1970-1980.
+
+Se puede apreciar una caída considerable del valor de las obras entre 1990-2010. La razón principal es que en este periodo los formatos de los cuadros son mucho más pequeños que los de la década 1970-1990. En la década de 2010-2020 retoma un formato más grande que explica el aumento de su precio, no obstante hay pocos en el dataset.
 
 
 
