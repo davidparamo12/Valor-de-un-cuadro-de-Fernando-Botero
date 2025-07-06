@@ -32,7 +32,7 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
         
         d.	MODELO 3- Un deployment usando de Streamlit para que el usuario registre atributos de un cuadro cualquiera de Botero y obtenga el cuadro más similar de acuerdo con nuestro         dataset. De esta manera, el usuario podrá saber a que precio se vendió el cuadro  más similar. Es una proxy útil para valorizar su cuadro.
 
-5.	[REPORTE Y VISUALIZACIONES](#reporte y visualizaciones)- Se presentan las visualizaciones más importantes del proyecto.
+5.	[REPORTE Y VISUALIZACIONES](#reporte y visualizaciones más importantes)- Se presentan las visualizaciones más importantes del proyecto.
    
 7.	[CONCLUSIONES FINALES](#conclusiones finales)
    
