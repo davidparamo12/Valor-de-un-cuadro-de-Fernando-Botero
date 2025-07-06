@@ -26,7 +26,7 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
    
         a.	EDA- Está todo el proceso exploratorio de los datos donde se concluye las variables importantes.
         
-        b.	[MODELO 1 ML](#primer-modelo--el-de-ml)- Un modelo de recomendación usando de la librería SKLEARN-Coseno de similitud.
+        b.	[MODELO 1 ML]- Un modelo de recomendación usando de la librería SKLEARN-Coseno de similitud.
         
         c.	MODELO 2- Una regresión logística con las variables relevantes para explicar el valor de los cuadros de Botero.
         
