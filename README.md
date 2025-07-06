@@ -20,7 +20,7 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
 ### ESTRUCTURA DEL PROYECTO-
 
 
-1.	[Ir a la sección de instalación](### DATASET)- Explicación del dataset y sus variables. Se sube el archivo de Excel al proyecto.
+1.	[DATASET](### DATASET)- Explicación del dataset y sus variables. Se sube el archivo de Excel al proyecto.
    
 3.	NOTEBOOKS- Son los archivos en Jupyter donde se presenta el código.
    
