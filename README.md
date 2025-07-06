@@ -299,7 +299,7 @@ Es evidente que la temática GRUPO DE FIGURAS es el que mayor valoriza los cuadr
 
  ![image](https://github.com/user-attachments/assets/4459c0a8-0429-4ceb-b3e4-6da91ec386b9)
 
-Podemos observar que al ingresar el cuadro más costoso- "The Musicians" no apareció el cuadro que le sigue en precio sino un cuadro que se vendio en 2019 por U$2 millones cuyo nombre es "Tablao Flamenco" y que debería tener un precio mucho más alto. Este cuadro está muy subvalorado y hay oportunidades de arbitraje con grandes utilidades, similar al duplicar mínimo su valor. 
+Podemos observar que al ingresar el cuadro más costoso- "The Musicians" no apareció el cuadro que le sigue en precio sino un cuadro que se vendió en 2019 por U$2 millones cuyo nombre es "Tablao Flamenco" y que debería tener un precio mucho más alto. Este cuadro está muy subvalorado y hay oportunidades de arbitraje con grandes utilidades, similar al duplicar mínimo su valor. 
 
  Al probarlo con todo tipo de indices, los resultados son satisfactorios del modelo.
 
