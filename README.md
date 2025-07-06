@@ -345,18 +345,19 @@ Llega un señor y te ofrece un cuadro de Botero, ¿qué hacer? Realizamos un dep
 
 ---------------------
 
-CONCLUSIONES FINALES:
+# CONCLUSIONES FINALES:
 
 
-1.El tamaño no es un método confiable para valorizar un cuadro del maestro Fernando Botero. Sí es una variable importante con una correlación positiva, pero muy lejos de ser un método fiable. Se requiere de un conjunto de atributos para entender el valor de un cuadro. Estas son algunos de los atributos más importantes que encontramos en el proyecto:
+1. El tamaño no es un método confiable para valorizar un cuadro del maestro Fernando Botero. Sí es una variable importante con una correlación positiva, pero muy lejos de ser un método fiable. Se requiere de un conjunto de atributos para entender el valor de un cuadro. Estas son algunos de los atributos más importantes que encontramos en el proyecto:
    
          1. Número de literatura elaborada para el cuadro (cabe anotar que esta literatura por lo general es escrita por curadores con phD o que son de galerias importantes). No es    literatura convencional o fácil de hacer; requiere de un trabajo.  
          2. Número de exhibiciones es importante tambíen. 
          3. La temática: Grupo de Figuras resulta de gran importancia. Un grupo de Figuras expresa mejor el "Boterismo" que cualquier otra temática.
          4. Los formatos pequeños reducen bastante el valor. Es probable que cuadros pequeños no puedan expresar de manera adecuada el "Boterismo".
+         5. La fecha tiene importancia, especialmente si es anterior a 1970 (reduce bastante su valor).
          
 
-2. Si eres dueño de un cuadro de Botero, estas son algunas recomendaciones:
+3. Si eres dueño de un cuadro de Botero, estas son algunas recomendaciones:
    
          1. No tenerlo guardado en la casa sino más bien exhibirla en galerias o museos. Exhibirla al público, aumenta su reconocimiento y valor. Ideal llevarla al menos a 4 lugares (si nunca ha salido el cuadro) antes de venderlo.
          2. Llevarla a una galeria en New York. Se recomienda la galeria Marlborough y negociar un % adecuado. Este costo, vale la pena asumirlo, porque valoriza el activo mucho más que             el % de intervención de la galeria.
@@ -364,7 +365,7 @@ CONCLUSIONES FINALES:
      
 4. Si te quieren vender un cuadro, estas son algunas recomendaciones:
 
-         1. Evita tratar con curadores que venden un cuadro por cm2, por lo general te están cobrando mucho por ese cuadro. Es asumir que el cm2 de los ouytlyers pueden explicar las medidas centrales de una variable; un despropósito estadístico.
+         1. Evita tratar con curadores que venden un cuadro por cm2, por lo general te están cobrando mucho por ese cuadro. Es asumir que el cm2 de los ouytlyers pueden explicar las medidas centrales de una variable; esto es un despropósito estadístico.
          2. La fecha es clave- no asumas que entre "mas viejo mejor". Los cuadros al inicio de su carrera son los más baratos.
          3. Evitar comprar cuadros con temáticas como Bodegones o Animales o que sean pequeños.
-         4. Hay oportunidades de negocio. Hay cuadros muy sub-valorados. Para este caso, Tablao Flamenco podría valer el doble del precio al que fue comprado. También hay otros cuadros de mediano formato con oportunidades de negocio. Sientete libre de usar el modelo elaborado en el proyecto para que veas cual cuadro puede tener un futuro prometedor como inversión. No dudes en contactarme para mayor información.
+         4. Hay oportunidades de negocio. Hay cuadros muy sub-valorados. Para este caso, Tablao Flamenco podría valer el doble del precio al que fue comprado. También hay otros cuadros de mediano formato con oportunidades de negocio. Sientete libre de usar el modelo elaborado en el proyecto para que veas cuál cuadro puede tener un futuro prometedor como inversión. No dudes en contactarme para mayor información.
