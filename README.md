@@ -22,7 +22,7 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
 
 1.	[DATASET](#dataset)- Explicación del dataset y sus variables. Se sube el archivo de Excel al proyecto.
    
-3.	NOTEBOOKS- Son los archivos en Jupyter donde se presenta el código.
+2.	NOTEBOOKS- Son los archivos en Jupyter donde se presenta el código.
    
         a.	EDA- Está todo el proceso exploratorio de los datos donde se concluye las variables importantes.
         
@@ -32,11 +32,10 @@ Por otra parte y de manera personal, me siento muy orgulloso del Maestro Fernand
         
         d.	MODELO 3- Un deployment usando de Streamlit para que el usuario registre atributos de un cuadro cualquiera de Botero y obtenga el cuadro más similar de acuerdo con nuestro         dataset. De esta manera, el usuario podrá saber a que precio se vendió el cuadro  más similar. Es una proxy útil para valorizar su cuadro.
 
-5.	[REPORTE Y VISUALIZACIONES](#reporte-y-visualizaciones-mas-importantes)- Se presentan las visualizaciones más importantes del proyecto.
+3.	[REPORTE Y VISUALIZACIONES](#reporte-y-visualizaciones-mas-importantes)- Se presentan las visualizaciones más importantes del proyecto.
    
-7.	[CONCLUSIONES FINALES](#conclusiones-finales)
+4.	[CONCLUSIONES FINALES](#conclusiones-finales)
    
-9.	AUTOR
 
 
 
